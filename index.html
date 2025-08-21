@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Health Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f9f7;
+        }
+
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #218838;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .service {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 30%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        footer {
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .service {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Simple Health Care</h1>
+    <p>Your health is our priority</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service">
+            <h3>General Checkup</h3>
+            <p>Routine health checks and diagnosis by professionals.</p>
+        </div>
+        <div class="service">
+            <h3>Pediatrics</h3>
+            <p>Special care for your children’s health and wellness.</p>
+        </div>
+        <div class="service">
+            <h3>Emergency Care</h3>
+            <p>24/7 emergency services available at your fingertips.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Contact us: +1 234 567 890 | info@simplehealth.com</p>
+    <p>&copy; 2025 Simple Health Care</p>
+</footer>
+
+</body>
+</html>
